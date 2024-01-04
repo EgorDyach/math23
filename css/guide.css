@@ -1,0 +1,84 @@
+/* guide */
+
+.guide {
+  padding: 90px 0 60px;
+  border-bottom: 1px #e7e7e7 solid;
+}
+
+.guide__title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.guide__list {
+  justify-content: space-between;
+}
+
+.guide__item-title {
+  font-family: "RussoOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+@media (max-width: 1400px) {
+  .guide__item-title {
+    font-size: 30px;
+  }
+
+  .guide__item-img {
+    width: 100%;
+  }
+
+  .guide__item {
+    width: 30%;
+  }
+
+  .guide__item:nth-child(1) {
+    margin-right: 5%;
+  }
+  .guide__item:nth-child(2) {
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 960px) {
+  .guide__list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .guide__item {
+    width: 55%;
+    text-align: center;
+    margin: 0;
+  }
+  .guide__list {
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+  }
+  .guide__item:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #c1c1c1;
+  }
+  .guide__item:nth-child(2) {
+    padding-bottom: 5%;
+    margin-right: 0;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #c1c1c1;
+  }
+}
+
+@media (max-width: 560px) {
+  .guide__item {
+    width: 100%;
+  }
+
+  .guide {
+    padding: 45px 0 45px;
+  }
+}

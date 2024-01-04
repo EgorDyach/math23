@@ -1,0 +1,27 @@
+/* predindex-Hero */
+
+.hero {
+    background: no-repeat radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+    padding: 65px 0;
+}
+
+.hero__con {
+    margin: 0;
+    padding: 120px 48% 109px 0px;
+    background-image: url(/img/PreHero.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 47%;
+  }
+
+  .hero__title {
+    font-size: 65px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .hero__descr {
+    font-size: 20px;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    color: #fff;
+  }

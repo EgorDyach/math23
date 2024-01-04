@@ -1,0 +1,153 @@
+/* hero */
+
+.hero {
+  color: #fff;
+  position: relative;
+}
+
+.hero img {
+  opacity: 0.6;
+}
+
+.slide-1 {
+  background-image: url(../img/hero-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  opacity: 0.4;
+}
+.slide-2 {
+  background-image: url(../img/hero-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  opacity: 0.4;
+}
+.slide-3 {
+  background-image: url(../img/hero-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.swiper.hero__swiper {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100%;
+  background-color: black;
+}
+
+.hero__con {
+  margin: 0;
+  padding: 120px 48% 109px 0px;
+}
+
+.hero__title {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.swiper-slide {
+  opacity: 0.4;
+}
+
+.hero__descr {
+  font-size: 20px;
+  margin-bottom: 100px;
+  line-height: 1.5;
+}
+
+.hero__link {
+  color: #fff;
+  background-color: #9d5cd0;
+  font-size: 20px;
+  border-radius: 35px;
+  padding: 15px 40px;
+  transition: outline-color 0.3s ease-in-out, outline-offset 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+  outline: 3px solid transparent;
+}
+
+.hero__link:focus:not(:active) {
+  outline-offset: 2px;
+  outline-color: #c283f3;
+}
+
+.hero__link:hover {
+  outline-color: #d1a9f0;
+}
+.hero__link:active {
+  background-color: #7943a4;
+}
+
+@media (max-width: 1600px) {
+  .hero__title {
+    font-size: 56px;
+  }
+
+  .hero__descr {
+    font-size: 17px;
+  }
+
+  .hero__con {
+    padding: 120px 48% 144px 0px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .hero__con {
+    padding: 70px 25% 70px 0px;
+  }
+}
+
+@media (max-width: 960px) {
+  .hero__title {
+    font-size: 44px;
+  }
+
+  .hero__descr {
+    font-size: 16px;
+    margin-bottom: 70px;
+    line-height: 1.5;
+  }
+
+  .hero__con {
+    padding: 70px 15% 65px 0;
+  }
+
+  .hero__link {
+    font-size: 19px;
+    padding: 12px 30px;
+  }
+  .hero {
+    padding: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero__con {
+    padding: 40px 0 40px 0;
+    text-align: center;
+  }
+
+  .hero__title {
+    font-size: 31px;
+  }
+
+  .hero__descr {
+    font-size: 15px;
+  }
+
+  .hero__link {
+    font-size: 16px;
+    padding: 10px 28px;
+  }
+}
